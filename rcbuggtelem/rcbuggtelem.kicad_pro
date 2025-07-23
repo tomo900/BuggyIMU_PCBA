@@ -628,6 +628,14 @@
     [
       "fcf3e7cb-f37f-4d77-988e-efceb543431e",
       "Power"
+    ],
+    [
+      "c14a9374-509c-4128-9d9b-91fd00b7bc36",
+      "PressureSensor"
+    ],
+    [
+      "f15cfd09-ab5d-48fe-aea1-905a297d6909",
+      "Mic"
     ]
   ],
   "text_variables": {}
