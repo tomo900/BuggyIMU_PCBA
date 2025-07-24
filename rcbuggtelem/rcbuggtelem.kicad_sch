@@ -700,6 +700,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -928,12 +1118,6 @@
 		)
 	)
 	(junction
-		(at 53.34 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e89f285-ba9b-4068-a73c-8a5c6a16eb52")
-	)
-	(junction
 		(at 43.18 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -956,6 +1140,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62d7bec6-9a93-43e3-b4bd-0876b6ed9ed2")
+	)
+	(junction
+		(at 215.9 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69dfa4bd-745e-4200-8356-cb557eb9396f")
+	)
+	(junction
+		(at 214.63 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a60d93e-1904-40f9-9929-d49039d5cdb8")
 	)
 	(junction
 		(at 43.18 49.53)
@@ -988,16 +1184,34 @@
 		(uuid "af822f28-8909-4039-bbe8-437463ab0595")
 	)
 	(junction
+		(at 207.01 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b18892b3-057d-4589-849c-f6a66f44fc95")
+	)
+	(junction
 		(at 46.99 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3899564-a559-4919-95b7-6275a19e5af5")
 	)
 	(junction
+		(at 53.34 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4eb1879-2122-48b4-b987-d9a32a4f1e87")
+	)
+	(junction
 		(at 43.18 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca6290b2-d5d5-4924-94ec-2bb6e160e52e")
+	)
+	(junction
+		(at 208.28 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfc7769d-0ae2-40e8-9dcf-c8bdda031795")
 	)
 	(junction
 		(at 43.18 41.91)
@@ -1043,16 +1257,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 96.52) (xy 171.45 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02597217-eb83-49fb-846b-59ec5f9926f9")
-	)
-	(wire
-		(pts
 			(xy 199.39 33.02) (xy 226.06 33.02)
 		)
 		(stroke
@@ -1063,7 +1267,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 41.91) (xy 226.06 41.91)
+			(xy 199.39 41.91) (xy 207.01 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1090,6 +1294,16 @@
 			(type default)
 		)
 		(uuid "06947bcd-6354-4e88-97b4-679ddcc93e56")
+	)
+	(wire
+		(pts
+			(xy 215.9 44.45) (xy 226.06 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ebf4b5-7f89-4ab1-9be1-ebe57ac37032")
 	)
 	(wire
 		(pts
@@ -1143,16 +1357,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 121.92) (xy 53.34 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2167eef4-f6b3-4869-ba8e-0c4a8de74999")
-	)
-	(wire
-		(pts
 			(xy 201.93 99.06) (xy 194.31 99.06)
 		)
 		(stroke
@@ -1193,6 +1397,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 93.98) (xy 125.73 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33552d12-c403-4ee4-8f6a-a495502b383d")
+	)
+	(wire
+		(pts
 			(xy 194.31 93.98) (xy 201.93 93.98)
 		)
 		(stroke
@@ -1213,16 +1427,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 99.06) (xy 171.45 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "385eb19a-a955-431d-b924-cc97717b6dae")
-	)
-	(wire
-		(pts
 			(xy 195.58 138.43) (xy 226.06 138.43)
 		)
 		(stroke
@@ -1230,16 +1434,6 @@
 			(type default)
 		)
 		(uuid "38e7d764-224c-4b98-a316-6ceeda5c514c")
-	)
-	(wire
-		(pts
-			(xy 45.72 116.84) (xy 115.57 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "411dce2f-825e-4cb5-ab80-3cbd625d9338")
 	)
 	(wire
 		(pts
@@ -1313,6 +1507,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 116.84) (xy 45.72 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecbad01-a3fb-4eee-b37c-cb19ae6110f6")
+	)
+	(wire
+		(pts
 			(xy 82.55 27.94) (xy 82.55 31.75)
 		)
 		(stroke
@@ -1360,6 +1564,16 @@
 			(type default)
 		)
 		(uuid "5b1880c7-87df-452a-b97d-4135dcf9ff71")
+	)
+	(wire
+		(pts
+			(xy 171.45 96.52) (xy 135.89 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0db3a4-470b-41d9-a1b6-c22c125767d2")
 	)
 	(wire
 		(pts
@@ -1473,6 +1687,26 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 93.98) (xy 125.73 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d8595c6-b111-422d-870c-48f2f14a18df")
+	)
+	(wire
+		(pts
+			(xy 140.97 121.92) (xy 45.72 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801272bf-f591-4108-8a74-0926fd3bae6c")
+	)
+	(wire
+		(pts
 			(xy 148.59 119.38) (xy 173.99 119.38)
 		)
 		(stroke
@@ -1513,16 +1747,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 121.92) (xy 53.34 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cf85f8d-08a4-4d77-a203-fa7ec3cd1b8b")
-	)
-	(wire
-		(pts
 			(xy 45.72 124.46) (xy 148.59 124.46)
 		)
 		(stroke
@@ -1540,6 +1764,26 @@
 			(type default)
 		)
 		(uuid "975aaed8-cec0-4122-b5d4-6f073d6473bc")
+	)
+	(wire
+		(pts
+			(xy 208.28 54.61) (xy 226.06 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d74f642-a018-4fe2-863b-31b1b9c4003f")
+	)
+	(wire
+		(pts
+			(xy 214.63 57.15) (xy 226.06 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fdedfd5-5f8c-4528-ad9d-ff4dac74291a")
 	)
 	(wire
 		(pts
@@ -1573,16 +1817,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 119.38) (xy 121.92 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4fb96c7-a0ab-4566-96e3-29ff2d9585ce")
-	)
-	(wire
-		(pts
 			(xy 199.39 35.56) (xy 226.06 35.56)
 		)
 		(stroke
@@ -1610,6 +1844,36 @@
 			(type default)
 		)
 		(uuid "a7171c5c-da80-4dbd-ad0b-a58c0d16dbc9")
+	)
+	(wire
+		(pts
+			(xy 140.97 99.06) (xy 140.97 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf9e5ff-5b99-4d99-8655-f2b53c8d0612")
+	)
+	(wire
+		(pts
+			(xy 171.45 99.06) (xy 140.97 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc9204a-3042-4292-9e21-05c89ea3e711")
+	)
+	(wire
+		(pts
+			(xy 207.01 41.91) (xy 226.06 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0bb4697-0ef2-455d-bf37-a3baf84e6ca7")
 	)
 	(wire
 		(pts
@@ -1693,16 +1957,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 114.3) (xy 109.22 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc965eb1-e080-436d-ab2c-840ad3a607ee")
-	)
-	(wire
-		(pts
 			(xy 49.53 74.93) (xy 49.53 82.55)
 		)
 		(stroke
@@ -1713,7 +1967,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 54.61) (xy 226.06 54.61)
+			(xy 199.39 54.61) (xy 208.28 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1733,13 +1987,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 119.38) (xy 121.92 99.06)
+			(xy 53.34 114.3) (xy 53.34 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6e8fdc3-7718-4082-a532-6d30bef2c7b9")
+		(uuid "c8138894-ecba-4df0-bcb2-7e2536d7f192")
 	)
 	(wire
 		(pts
@@ -1783,16 +2037,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 93.98) (xy 171.45 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccfca049-9462-4668-aa1c-e8abfab1b3d5")
-	)
-	(wire
-		(pts
 			(xy 40.64 66.04) (xy 49.53 66.04)
 		)
 		(stroke
@@ -1800,6 +2044,16 @@
 			(type default)
 		)
 		(uuid "cd5a6d7a-3955-41fd-bb8d-fbd9543922d2")
+	)
+	(wire
+		(pts
+			(xy 135.89 119.38) (xy 45.72 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6b7d96-ec6a-4d9e-a891-d26053e1af7b")
 	)
 	(wire
 		(pts
@@ -1833,7 +2087,27 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 44.45) (xy 226.06 44.45)
+			(xy 45.72 114.3) (xy 53.34 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67ee1a7-ae1d-472d-9aed-756167aeb233")
+	)
+	(wire
+		(pts
+			(xy 135.89 96.52) (xy 135.89 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6f2defd-c1c8-40e3-b496-db46d3fa7fc7")
+	)
+	(wire
+		(pts
+			(xy 199.39 44.45) (xy 215.9 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1863,16 +2137,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 116.84) (xy 115.57 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df6d0c69-5f4c-43c2-9f58-910ff3e84305")
-	)
-	(wire
-		(pts
 			(xy 49.53 66.04) (xy 49.53 58.42)
 		)
 		(stroke
@@ -1880,16 +2144,6 @@
 			(type default)
 		)
 		(uuid "df989a44-994d-4ff1-b3c1-87922362b63a")
-	)
-	(wire
-		(pts
-			(xy 109.22 114.3) (xy 109.22 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e72bb0a4-f233-4848-8e83-b62ef7053666")
 	)
 	(wire
 		(pts
@@ -1963,7 +2217,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 57.15) (xy 226.06 57.15)
+			(xy 199.39 57.15) (xy 214.63 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2234,6 +2488,70 @@
 			(project ""
 				(path "/1aed9cc3-1fd5-4f94-9706-4a914b4693cf"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 92.71 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c9652d7-59d5-4e09-980a-b24ce92c563f")
+		(property "Reference" "H1"
+			(at 95.25 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 95.25 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 92.71 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 92.71 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1aed9cc3-1fd5-4f94-9706-4a914b4693cf"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -2666,6 +2984,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 207.01 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ee661bd-6fd1-45c1-aff1-89beefb7d34d")
+		(property "Reference" "TP1"
+			(at 209.55 37.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 209.55 39.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 212.09 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 207.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1914f195-7a25-428e-bc9a-6a0a4b83ea07")
+		)
+		(instances
+			(project ""
+				(path "/1aed9cc3-1fd5-4f94-9706-4a914b4693cf"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 201.93 90.17 0)
 		(unit 1)
@@ -2798,6 +3183,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 120.65 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a0cb0a8-f7fd-4c36-bb05-e3f7b7c5d2a8")
+		(property "Reference" "H3"
+			(at 123.19 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 123.19 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 120.65 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 120.65 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1aed9cc3-1fd5-4f94-9706-4a914b4693cf"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 35.56 41.91 0)
 		(unit 1)
@@ -2862,6 +3311,137 @@
 			(project "rcbuggtelem"
 				(path "/1aed9cc3-1fd5-4f94-9706-4a914b4693cf"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 214.63 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4eeedf97-fbb2-4ab8-a80c-fd20fcab63cd")
+		(property "Reference" "TP4"
+			(at 217.17 52.5779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 217.17 55.1179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 219.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 214.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c560eda3-b7e5-4150-8bf6-339fc5f5c80e")
+		)
+		(instances
+			(project ""
+				(path "/1aed9cc3-1fd5-4f94-9706-4a914b4693cf"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 120.65 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "677270bf-7831-450f-a052-a6e38cb6e5b9")
+		(property "Reference" "H4"
+			(at 123.19 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 123.19 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 120.65 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 120.65 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1aed9cc3-1fd5-4f94-9706-4a914b4693cf"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -2934,6 +3514,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 208.28 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90c0aded-75d8-4f3c-b177-387c04124bb3")
+		(property "Reference" "TP3"
+			(at 210.82 50.0379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 210.82 52.5779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 213.36 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 208.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd2f02c0-f68d-4fc3-a0cf-3d0ab83a5f03")
+		)
+		(instances
+			(project ""
+				(path "/1aed9cc3-1fd5-4f94-9706-4a914b4693cf"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 43.18 33.02 0)
 		(unit 1)
@@ -2952,7 +3599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "ServoPower"
 			(at 43.18 27.94 0)
 			(effects
 				(font
@@ -3126,6 +3773,70 @@
 			(project ""
 				(path "/1aed9cc3-1fd5-4f94-9706-4a914b4693cf"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 91.44 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbb77362-4725-46a5-9e56-25f549502a8c")
+		(property "Reference" "H2"
+			(at 93.98 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 93.98 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 91.44 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 91.44 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1aed9cc3-1fd5-4f94-9706-4a914b4693cf"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3397,6 +4108,73 @@
 			(project "rcbuggtelem"
 				(path "/1aed9cc3-1fd5-4f94-9706-4a914b4693cf"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 215.9 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef849e07-7a2d-475f-b833-5202f176b0cc")
+		(property "Reference" "TP2"
+			(at 218.44 39.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 218.44 42.4179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 220.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 215.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33543418-3119-4222-9021-ab2e258b6b3d")
+		)
+		(instances
+			(project ""
+				(path "/1aed9cc3-1fd5-4f94-9706-4a914b4693cf"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -3901,7 +4679,7 @@
 			)
 		)
 		(pin "SNS_SUPPLY" input
-			(at 171.45 93.98 180)
+			(at 171.45 99.06 180)
 			(uuid "b2a4f98d-c36f-45ff-9098-ef1ac1940785")
 			(effects
 				(font
@@ -3911,7 +4689,7 @@
 			)
 		)
 		(pin "SNS_A" input
-			(at 171.45 99.06 180)
+			(at 171.45 93.98 180)
 			(uuid "52f55ed0-b994-4777-b24e-b05d239c2027")
 			(effects
 				(font
